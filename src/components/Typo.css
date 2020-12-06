@@ -1,0 +1,33 @@
+
+      
+      hr{
+        line-height: 1em;
+        position: relative;
+        outline: 0;
+        border: 0;
+        color: black;
+        align-items: center;
+        height: 1.5em;
+        opacity: .7;
+      }
+        hr:before {
+          content: '';
+         align-items: center;
+          background: linear-gradient(to right, transparent, #818078, transparent);
+          position: absolute;
+          left: 200px;
+          top:7px;
+          width: 100%;
+          height: 1px;
+        }
+        hr:after {
+          content: attr(data-content);
+          position: relative;
+          display: inline-block;
+          color: black;
+          align-items: center;
+          padding: 0 .5em;
+          line-height: 1.5em;
+          color: #818078;
+          background-color: #fcfcfa;
+        }

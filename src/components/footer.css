@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&family=Yeon+Sung&display=swap');
+
+  
+
+
+
+.footer{
+    background-color: #1b1b1b;
+    background-color: #d99058;
+background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
+
+}
+
+
+a { 
+    padding: 20px 20px; 
+    display: inline-block; 
+     
+    letter-spacing: 2px; 
+
+    text-decoration: none; 
+    font-size: 1em; 
+    overflow: hidden; 
+    
+    
+} 
+
+
+
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  /* footer left*/
+  
+  .footer .footer-left {
+    width: 70%;
+    padding-right: 15px;
+  }
+  
+  .footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 15px;
+    color:black;
+  }
+  
+  .footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Yeon Sung', cursive;
+    margin-bottom: 40px;
+    
+    color:black;
+  }
+  
+  .footer .icons {
+    margin-top: 25px;
+  }
+  
+  .footer .icons a {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  .footer .icons a:hover { 
+    color: #111; 
+    background: #182d48; 
+    box-shadow: 0 0 50px #182d48; 
+} 
+
+
+
+
+  
+ 
+  
+  
+  
+  
+  /* footer right*/
+  
+  .footer .footer-right {
+    width: 35%;
+  }
+  
+  .footer h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer h2 span {
+    color: #0099ff;
+  }
+  
+  .footer .menu {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .menu a:hover {
+    color: #0099ff;
+  }
+  
+  .footer .name {
+    color: #0099ff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      font-size: 14px;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .footer .footer-center i {
+      margin-left: 0;
+    }
+  }
+  .mail{
+    
+  }
